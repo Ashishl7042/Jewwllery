@@ -1,0 +1,38 @@
+*{
+	margin: 0;
+	box-sizing: border-box;
+
+}
+#height{
+	max-height:400px;
+}
+.texcol{
+	color: orange;
+}
+#see-btn{
+    background-color: #34495E;
+    color:aquamarine;
+}
+
+#view-btn{
+background-color:  #1ebbd7;
+color: black;
+}
+#view-bttn{
+background-color:  #1ebbd7;
+color:white;
+
+}
+.footcol{
+	background-color:rgb(243, 229, 159);
+}
+#heightinc{
+	max-height:450px;
+}
+.border{
+	border-radius:60%;
+	
+}
+.heigh{
+	max-height: 450px;
+}

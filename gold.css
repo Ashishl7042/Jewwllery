@@ -1,0 +1,30 @@
+*{
+	margin: 0;
+	box-sizing: border-box;
+
+}
+#active:hover{
+	background-color: blue;
+	color: white;
+}
+.texcol{
+	color: orange;
+}
+.textchange{
+	color:rgb(242, 123, 143 );
+}
+.purple{
+	color:blueviolet;
+}
+.footcol{
+	background-color:rgb(243, 229, 159);
+}
+#see-btn{
+    background-color: #34495E;
+    color:aquamarine;
+}
+
+#view-btn{
+background-color:  #1ebbd7;
+color: black;
+}

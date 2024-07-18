@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- CSS link --> 
+    <link rel="stylesheet" type="text/css" href="cart.css">
+     <!-- BootStrap link --> 
+	 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+	 
+	 <!-- Font awsome link -->
+	 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	  
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
+	  <title>JewellerShop</title>
+</head>
+<body>
+	<!-- Navbar Start  -->
+<nav class="navbar navbar-expand-lg bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"><img src="log.png" width="80%"></a>
+    <button class="navbar-toggler text-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon bg-light"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active text-light fw-bold fs-5" aria-current="page" href="file:///C:/Users/Ashish/OneDrive/Documents/websites/Jeweller/index.html?#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light fw-semibold fs-5" href="file:///C:/Users/Ashish/OneDrive/Documents/websites/Jeweller/Gold.html">Gold</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light fw-semibold fs-5" href="file:///C:/Users/Ashish/OneDrive/Documents/websites/Jeweller/Silver.html">Siver</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light fw-semibold fs-5" href="file:///C:/Users/Ashish/OneDrive/Documents/websites/Jeweller/Diamond.html#">Diamond</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light fw-semibold fs-5" href="#">About Us</a>
+        </li>
+        
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+      </form>
+      <ul>
+         <li class="nav-item">
+          <a class="nav-link text-light" href="file:///C:/Users/Ashish/OneDrive/Documents/websites/Jeweller/cart.html#"><i class="fa-solid fa-cart-shopping text-light fw-semibold fs-5 mt-2"></i>Cart</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+	<!-- Navbar End -->
+<div class="container-fluid">
+
+<!-- cart start -->
+
+ <table class="table">
+  <thead>
+    <tr>
+      <th scope="col" class="red">Product</th>
+      <th scope="col" class="red">Quantity</th>
+      <th scope="col" class="red">Subtotal</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row"><div class="cart-info">
+            <img src="set.jpeg" alt="" height="50px">
+             </div>
+              <p>Neckles</p>
+              <span>Price:₹2,00,000</span>
+              <br>
+              <a href="#">remove</a>
+            </th>
+     <td><input type="number" value="1" min="1"></td>
+        <td>₹2,00,000</td>
+     </tr>
+
+         <tr>
+      <th scope="row"><div class="cart-info">
+            <img src="bangles mid.jpeg" alt="" height="50px">
+             </div>
+              <p>Mid Bangles</p>
+              <span>Price: ₹2,50,000</span>
+              <br>
+              <a href="#">remove</a>
+            </th>
+     <td><input type="number" value="1" min="1"></td>
+        <td>₹2,50,000</td>
+     </tr>
+
+       <tr>
+      <th scope="row"><div class="cart-info">
+            <img src="bag.jpeg" alt="" height="50px">
+             </div>
+              <p>Purse</p>
+              <span>Price:₹25,500</span>
+              <br>
+              <a href="#">remove</a>
+            </th>
+     <td><input type="number" value="1" min="1"></td>
+        <td>₹25,500</td>
+     </tr>
+
+       <tr>
+      <th scope="row"><div class="cart-info">
+            <img src="braclet.jpeg" alt="" height="50px">
+             </div>
+              <p>Mens Braclet</p>
+              <span>Price: ₹1,20,000</span>
+              <br>
+              <a href="#">remove</a>
+            </th>
+     <td><input type="number" value="1" min="1"></td>
+        <td>₹1,20,000</td>
+     </tr>
+
+      <tr>
+      <th scope="row"> Subtotal</th>
+      <td></td>
+       <td>₹5,96,000</td>
+     </tr>
+      <tr>
+      <th scope="row">Tax</th>
+      <td></td>
+       <td>₹4,000</td>
+     </tr>
+     <tr>
+      <th scope="row">Total</th>
+      <td></td>
+       <td>₹6,00,000</td>
+     </tr>
+      
+ 
+    
+    </tbody>
+  </table>    
+    <h6 class="text-end w-75"><button class="see-btn"><a href="#" class="text-light">Checkout</a></button></h6>
+<!-- Testimonial start -->
+<div class="row w-75 mx-auto mt-4">
+    <div class="col-lg-4 col-md-4 col-12 my-2">
+      <div class="card  h-100"  id="textdetail"  >
+    <i class="fa fa-quote-left text-center text-danger my-3" aria-hidden="true"></i>
+                <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                     magna aliqua. Ut enim ad minim veniam.</p>
+  <div class="card-body text-center text-danger">
+     <i class="fa fa-star " aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+  
+   </div>
+    <p class="text-center"><img src="testimonial1.jpeg" height="180px"  class="border w-50 text-center" alt="">
+          </p>  <h5 class="text-center">Mohd Amaan Khan</h5> 
+            </div>
+ </div>
+ 
+ <div class="col-lg-4 col-md-4 col-12 my-2">
+      <div class="card  h-100"  id="textdetail"  >
+    <i class="fa fa-quote-left text-center text-danger my-3" aria-hidden="true"></i>
+                <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                     magna aliqua. Ut enim ad minim veniam.</p>
+  <div class="card-body text-center text-danger">
+     <i class="fa fa-star " aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+  
+   </div>
+    <p class="text-center"><img src="testimonial2.jpeg" height="180px" class="border w-50" alt="">
+           </p> <h5 class="text-center">Mohd Amaan Khan</h5> 
+            </div>
+ </div>
+
+
+  <div class="col-lg-4 col-md-4 col-12 my-2">
+      <div class="card  h-100"  id="textdetail"  >
+    <i class="fa fa-quote-left text-center text-danger my-3" aria-hidden="true"></i>
+                <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                     magna aliqua. Ut enim ad minim veniam.</p>
+  <div class="card-body text-center text-danger">
+     <i class="fa fa-star " aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+  
+   </div>
+   <p class="text-center"> <img src="testimonial4.jpeg" height="180px" class="border w-50" alt="">
+          </p>  <h5 class="text-center">Mohd Amaan Khan</h5>
+            </div>
+ </div>
+
+</div>
+<!-- Testimonial end -->
+
+<!-- cart end -->
+ <!-- footer start -->
+ <div class="footcol">
+ <div class="row my-2 w-100 mx-auto">
+   <div class="col-lg-6 col-12">
+    <div class="card border-0">
+   <div class="card-body footcol">
+  <h4 class="fw-bold mt-5 text-center">ASCELLA JEWELRY SHOP</h4>
+  <p class="text-center fs-4 mt-2">
+    <i class="fa-brands fa-cc-visa"></i>
+    <i class="fa-brands fa-cc-apple-pay"></i>
+    <i class="fa-brands fa-amazon-pay"></i>
+    <i class="fa-brands fa-cc-paypal"></i>
+    <i class="fa-solid fa-credit-card"></i>
+
+  </p>
+   
+   </div>
+ </div>
+</div>
+
+
+<div class="col-lg-6 col-12 my-5">
+  <div class="row my-2 w-100 mx-auto">
+ <div class="col-lg-4  col-12 my-2">
+      <div class="card border-0 h-100">
+   <div class="card-body footcol">
+   <p class="text-center mt-3">GENERAL</p>
+  <p class="text-center">Shipping</p>
+   <p class="text-center">Order Status</p>
+  <p class="text-center">Exchanges & Returns</p>
+   <p class="text-center">Jewelry Care</p>
+  <p class="text-center">FAQ</p>
+   </div>
+ </div>
+</div>
+
+<div class="col-lg-4  col-12 my-2">
+      <div class="card border-0 h-100">
+   <div class="card-body footcol">
+   <p class="text-center mt-3">ABOUT</p>
+  <p class="text-center">Our World</p>
+   <p class="text-center">Our Packaging</p>
+  <p class="text-center">Our Client</p>
+   <p class="text-center">Stories</p>
+  <p class="text-center">Gift Cards</p>
+   </div>
+ </div>
+</div>
+
+<div class="col-lg-4  col-12 my-2">
+      <div class="card border-0 h-100">
+   <div class="card-body footcol">
+   <p class="text-center mt-3">CATEGORIES</p>
+  <p class="text-center">New In</p>
+   <p class="text-center">Earrings</p>
+  <p class="text-center">Rings</p>
+   <p class="text-center">Necklace</p>
+  <p class="text-center">Bracelets</p>
+    <p class="text-center">Accessories</p>
+  <p class="text-center">All Jewelry</p>
+   </div>
+ </div>
+</div>
+
+
+    <!--  -->
+  </div>
+  </div>
+
+ 
+ <!-- footer End -->
+<!-- Container Fluid -->
+  </div>
+  <!--  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+       </script>
+       </body>
+       </html>
